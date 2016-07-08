@@ -17,7 +17,7 @@ To get started with this mini-hack, you need a Virtual Machine where you can run
 ### Validate your Docker Deployment ###
 Log in to the virtual machine and validate your Docker Host by typing the following command on a command line
 
-    docker run -ti hello-world windowsservercore cmd
+    docker run -ti windowsservercore cmd
 
 This starts up (docker run) a clean Windows Server Core docker container (windowsservercore) in terminal mode (-ti) and opens the command line in this container (cmd)
 
