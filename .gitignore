@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs
+/Build/Source/GitHubBuild/bin
+/Build/Source/GitHubBuild/obj/Debug
+/Build/Source/GitHubBuild.Tests/bin/Debug
+/Build/Source/GitHubBuild.Tests/obj/Debug
