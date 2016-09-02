@@ -126,13 +126,8 @@ static void Main()
 ``` csharp
 private static void InsertSession(CloudTable table)
 {
-	//Create some data to store
 	var session = CreateSession();
-
-	// Create the TableOperation object that inserts the session entity.
 	var insertOperation = TableOperation.Insert(session);
-
-	// Execute the insert operation.
 	table.Execute(insertOperation);
 }
 ```
@@ -142,11 +137,9 @@ private static void InsertSession(CloudTable table)
 private static void RetrieveSessions(CloudTable table)
 {
 	var startsAt = new DateTime(2016, 10, 4, 12, 0, 0);
-	// Construct the query operation for all sessions for the first day of the TechDays event.
 	TableQuery<Session> query = new TableQuery<Session>()
 		.Where(TableQuery.GenerateFilterCondition("PartitionKey", QueryComparisons.Equal, startsAt.Date.ToString("s")));
 
-	// Print the fields for each session.
 	foreach (Session entity in table.ExecuteQuery(query))
 	{
 		Console.WriteLine($"Day: {entity.PartitionKey}, ID:{entity.RowKey}\tName:{entity.Name}\tDescription{entity.Description}");
@@ -161,7 +154,7 @@ You should see output similar to this:
 At this point you have created an Azure Storage Account, added a Table Storage Table, and used that table to store data about a TechDays session!
 
 ### Finished! ###
-You have succesfully finished this level #100 Mini-Hack, please go to the host and have your badge scanned. Be sure to scan the badge with the Mini-Hack app!
+You have succesfully finished this Mini-Hack, please go to the host and have your badge scanned. Be sure to scan the badge with the Mini-Hack app!
 
 If you do not have the Mini-Hack App yet be sure to download 
 - iOS
