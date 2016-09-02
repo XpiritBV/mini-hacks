@@ -1,4 +1,4 @@
-# Tagging Azure Resources in Azure Manager Portal#
+# Tagging Azure Resources in Azure Portal#
 
 ## Challenge ##
 Getting your Azure Resource Manager resources organized by tagging helps you to create order in chaos. This minihack shows the basics of resource tagging.
