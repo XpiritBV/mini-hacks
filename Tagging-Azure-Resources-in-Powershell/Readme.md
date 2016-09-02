@@ -7,6 +7,8 @@ Getting your Azure Resource Manager resources organized by tagging helps you to 
 - You will need an Azure Account
 - Azure Powershell 3.0.1 or later
 
+> (Get-Module -ListAvailable | Where-Object{ $_.Name -eq 'AzureRm.Resources' }) | Select Version, Name | Format-List
+
 ## The Assignment ##
 Tag an Azure RM resource in the Powershell. 
 
