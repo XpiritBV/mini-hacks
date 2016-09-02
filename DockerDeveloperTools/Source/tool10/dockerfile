@@ -1,5 +1,0 @@
-FROM windowsservercore
-ADD ./tool /tool
-WORKDIR /tool
-CMD tool.bat
- 
