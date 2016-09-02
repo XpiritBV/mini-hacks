@@ -1,4 +1,4 @@
-# #100 Build Hack #
+# #Table Storage Hack #
 
 ## Challenge ##
 In this challenge you will create a new Azure Storage Account. You will use the Storage SDK to access Table Storage in that Account and learn how to read and write data.
@@ -14,8 +14,7 @@ To get started with this mini-hack, you will need the following
 ### Step 1 Create the storage account ###
 First navigate to the Azure Portal and log in. 
 
-- Select 'New' (top left corner) and 'Storage Account'. 
-- On the new window, click 'Add' 
+- Select 'New' (top left corner) 'Data + Storage' and 'Storage Account'. 
 - On the new window, provide a unique name for your storage account, add or reuse a Resource Group, select 'West Europe' as the location, and click 'Create'.
 - Wait until the Storage Account creation process completes. 
 - Navigate to the new Storage Account window, in 'Settings', select 'Access Keys'
