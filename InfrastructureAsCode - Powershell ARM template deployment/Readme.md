@@ -28,7 +28,7 @@ Now you go into your Powershell cmd line. Go to the directory where you have sav
 
 > New-AzureRmResourceGroupDeployment -Name ExampleMiniHackDeployment -ResourceGroupName MiniHacksResourceGroupTechdays -TemplateFile azuredeploy.json -TemplateParameterFile azuredeploy.parameters.json
 
-### Finished! ###
+## Finished! ##
 Logon to the your subscription on the Azure portal and *Check the Resource Group MiniHacksResourceGroupTechdays*. There you can find your new resources. To delete the resource from powershell you can do:
 
 > Remove-AzureRmResourceGroup -Name MiniHacksResourceGroupTechdays
