@@ -7,3 +7,8 @@
 /Build/Source/GitHubBuild/obj/Debug
 /Build/Source/GitHubBuild.Tests/bin/Debug
 /Build/Source/GitHubBuild.Tests/obj/Debug
+/Optimize-your-Build/Source/GitHubBuild.Tests/obj/Debug
+/Version-your-Application/Source/GitHubBuild/bin
+/Version-your-Application/Source/GitHubBuild/obj/Debug
+/Version-your-Application/Source/GitHubBuild.Tests/bin/Debug
+/Version-your-Application/Source/GitHubBuild.Tests/obj/Debug
