@@ -1,18 +1,39 @@
-# Set up a IIS enabled Docker Image #
+# Use VSTS Release Management to set Build Quality #
 
 ## Challenge ##
-Getting started with Docker can be quite a challenge, but it is actually quite straightforward. Once you know the basics to get started, new perspectives will open up.
+In a multi-team environment where teams maintain their own builds and where a release contains multiple components it is important to keep rack of Build Quality. In this way you can easily get the builds you need without having to contact all the teams. You can use VSTS Release Management to achieve this.
 
 ## Prerequisites ##
-To get started with this mini-hack, you need a Virtual Machine where you can run Docker images. Windows 2016 has the possibility to run Docker images natively. Windows 10 also has this possibility. This mini-hack uses a Windows 2016 Server Core image that is available in the Azure Gallery.
-
-- Log in to your Azure Account
-- Click the New Button on the left hand side 
-- Search for [Windows Server 2016 Core with Containers Tech Preview 5] and select the image 
-- Create the new image by following the steps in the wizard
-- Set up a Remote Desktop connection and login to the Virtual Machine you just created
+To get started with this mini-hack, you need a Visual Studio Team Services Account. 
 
 ## The Assignment ##
+
+### Create a new Team Project and upload source ###
+In this step you need to create a new Team Project in VSTS and check-in a new Visual Studio Code Project into VSTS.
+
+- Log in to your VSTS account and create a new Team Project. As a name suggestion you can call it BuildQuality-Minihack
+- Open Visual Studio and create a new Project. It does not really matter what kind of project. A ConsoleApplication is good enough. 
+- Check-in or commit your sources to your source control. 
+
+*For a walkthrough on using Source Control in VSTS please check MSDN*
+
+- For TFVC - [https://www.visualstudio.com/en-us/docs/tfvc/add-files-server](https://www.visualstudio.com/en-us/docs/tfvc/add-files-server "https://www.visualstudio.com/en-us/docs/tfvc/add-files-server")
+- For Git - [https://www.visualstudio.com/en-us/docs/git/tutorial/creatingrepo](https://www.visualstudio.com/en-us/docs/git/tutorial/creatingrepo "https://www.visualstudio.com/en-us/docs/git/tutorial/creatingrepo")
+
+### Set up a build for your project ###
+In this step you will set-up a new build definition that builds your project.
+
+- Open Visual Studio Team Services and navigate to the Build Hub. 
+- Create a new build definition based on the Visual Studio Template
+- Save the build as BuildQuality
+- Queue the build
+
+
+
+
+
+
+
 
 ### Validate your Docker Deployment ###
 Log in to the virtual machine and validate your Docker Host by typing the following command on a command line
