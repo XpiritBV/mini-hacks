@@ -5,8 +5,6 @@ You can create PaaS or IaaS services in Azure by adding and configure them in th
 
 In this challenge, you will use Azure and ARM templates to provision PaaS services to Azure. This will involve logging into the Azure Portal, select an ARM template and execute the ARM template from a website. 
 
-The walkthrough below should help you with the challenge, but you can also get in touch with Pascal Naber (Twitter: @pascalnaber) with questions – Pascal is at the conference and happy to help.
-
 ## Prerequisites ##
 To get started with this mini-hack, you need workingAzure subscription.
 
