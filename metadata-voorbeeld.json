@@ -1,0 +1,26 @@
+[
+  {
+    "unlockCode": "Hockey84638",
+    "badgeUrl": "https://s3.amazonaws.com/blog.xamarin.com/wp-content/uploads/2016/04/18142616/hockeyapp2.png",
+    "gitHubUrl": "https://github.com/xamarin/mini-hacks/blob/master/hockeyapp/README.md",
+    "description": "Setup your first app in HockeyApp to explore how to distribute apps to your beta users, collect app feedback, and identify crashes or production issues.\r\n\r\nLevel 1: Integrate HockeySDK for Xamarin into your app to collect crash reports and telemetry.",
+    "subtitle": "Get apps to testers - faster.",
+    "name": "HockeyApp"
+  },
+  {
+    "unlockCode": "Cognitive",
+    "badgeUrl": "https://s3.amazonaws.com/blog.xamarin.com/wp-content/uploads/2016/04/23051802/CognitiveServices.png",
+    "gitHubUrl": "https://github.com/xamarin/mini-hacks/blob/master/microsoft-cognitive-services/README.md",
+    "description": "Use one of the Microsoft Cognitive Services API's to bring intelligence to a Xamarin cross-platform application.\r\n\r\nLevel 1: Create Android / UWP app that uses Face and Emotion APIs to detect happiness from a captured photo",
+    "subtitle": "Give your apps a human side",
+    "name": "Microsoft Cognitive Services"
+  },
+  {
+    "unlockCode": "AppService743",
+    "badgeUrl": "https://s3.amazonaws.com/blog.xamarin.com/wp-content/uploads/2016/04/13145349/service-final.png",
+    "gitHubUrl": "https://github.com/xamarin/mini-hacks/blob/master/azure-app-service/README.md",
+    "description": "Use Azure App Service and Xamarin.iOS or Xamarin.Android to build a scalable, native mobile app in C#.\r\n\r\nLevel 1: Build a Xam.Forms app & connect to Azure",
+    "subtitle": "Prepare your app for all on/offline scenarios",
+    "name": "Azure App Service"
+  }
+]
