@@ -1,4 +1,4 @@
-# Build Hack - Creating a Build Definition
+# Creating a Build Definition
 
 ## Challenge ##
 In this challange you will create a new build definition. You will use a GitHub repository for the sources and will learn how to use tasks in your build definition. You will build this code using the hosted build agent.

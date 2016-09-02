@@ -1,4 +1,4 @@
-# Build Hack - Optimize & Enhance your Build #
+# Optimize & Enhance your Build #
 
 ## Challenge ##
 In this mini-hack you will learn several optimization & enhancements to your build defintion. These features can help you keep your build and output quick en lean.

@@ -1,4 +1,4 @@
-# Build Hack - Version your Application #
+# Version your App in VSTS Build #
 
 ## Challenge ##
 In this Mini-Hack you will learn to add additional build steps to your build definition. In this hack you will execute a custom PowerShell file to version your assemblies. This build will use a local build agent to build it.
@@ -20,7 +20,7 @@ To get started with this mini-hack, you will need the following
 Download the latest Build Agent, by navigating to admin section of your VSTS account. 
 
 Navigate to Agent Queues, and click to download agent button. Follow the instructions to download and configure the agent. 
- 
+Â 
 Detailed guidance can be found here: [https://www.visualstudio.com/en-us/docs/build/admin/agents/v2-windows](https://www.visualstudio.com/en-us/docs/build/admin/agents/v2-windows)
 
 Navigate to your profiles security settings. Create a Personal Access Token (PAT). This PAT is required to register the agent. 
