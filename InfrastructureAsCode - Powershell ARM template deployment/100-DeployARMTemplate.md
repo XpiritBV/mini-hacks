@@ -25,6 +25,7 @@ Open the file to see the resources you are about to deploy to Azure. Next you ca
 Now you go into your Powershell cmd line. Go to the directory where you have saved the files downloaded in step 2. To deploy the templates to Azure you can run:
 
 > New-AzureRmResourceGroup -Name MiniHacksResourceGroupTechdays -Location "West Europe"
+
 > New-AzureRmResourceGroupDeployment -Name ExampleMiniHackDeployment -ResourceGroupName MiniHacksResourceGroupTechdays -TemplateFile azuredeploy.json -TemplateParameterFile azuredeploy.parameters.json
 
 ### Finished! ###
