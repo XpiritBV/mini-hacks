@@ -1,4 +1,4 @@
-# Infrastructure as Code - Deploy ARM Template and Powershell DSC #
+# Deploy ARM Template and Powershell DSC #
 
 ## Challenge ##
 You can create PaaS or IaaS services in Azure by adding and configure them in the Azure Portal. This is fine for one-time creation. But when you need to create the same environment multiple times it’s error-prone and time consuming. Let’s automate this repeating work.

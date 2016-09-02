@@ -1,4 +1,4 @@
-# Use containers for easier development #
+# Use Docker containers for easier development #
 
 ## Challenge ##
 You can use Docker for running applications and easier deployment, but you can also benefit from Docker in your daily development workflow. Would it not be easy if you can switch between tool versions without starting up a VM or re-installing the tool on your OS? You can !

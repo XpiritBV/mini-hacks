@@ -1,4 +1,4 @@
-# Hue-MiniHack
+#Controlling your Philips Hue
 
 Amazing Philip Hue: [Turn On Living video on YouTube] (https://www.youtube.com/watch?v=lCv4r3wgsPQ) 
 

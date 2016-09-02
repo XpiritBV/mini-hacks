@@ -1,18 +1,25 @@
+# Publishing your app to HockeyApp
+
+## Challenge ##
 Creating a killer mobile app is part science, and part art.  You not only have to create a stable code base that operates across a variety of OS versions and continuously changing connectivity scenarios – you also have to create an app that people love to use.
 
 HockeyApp gives you the information you need to improve your app, evolve with the device platform, and create that great feature set and user interface for everyone to love. In this challenge, you will integrate HockeySDK for Xamarin into your app to collect crash reports and telemetry.
 
-## Walkthrough
+## Prerequisites
 
-1. Sign up for a free [HockeyApp](http://hockeyapp.net/features/) account if you haven't already, and create a new app via the New App button on the dashboard.
+- HockeyApp account. Sign up for a free [HockeyApp](http://hockeyapp.net/features/) account if you haven't already, and create a new app via the New App button on the dashboard.
+- Xamarin Studio
 
-2. Copy the App ID from HockeyApp to your clipboard.
+## The Assignment
 
-3. In Xamarin Studio, create a new Android or iOS project.
 
-4. Add a reference to the [HockeySDK Nuget](https://www.nuget.org/packages/HockeySDK.Xamarin).  You should be using version *4.1.0-beta3*
+1. Copy the App ID from HockeyApp to your clipboard.
 
-5. Initialize the SDK: For iOS, look for your FinishedLaunching in your AppDelegate.cs file and add the following code (be sure be sure to replace "HOCKEYAPP_APPID" with your own):
+2. In Xamarin Studio, create a new Android or iOS project.
+
+3. Add a reference to the [HockeySDK Nuget](https://www.nuget.org/packages/HockeySDK.Xamarin).  You should be using version *4.1.0-beta3*
+
+4. Initialize the SDK: For iOS, look for your FinishedLaunching in your AppDelegate.cs file and add the following code (be sure be sure to replace "HOCKEYAPP_APPID" with your own):
 
         public override bool FinishedLaunching (UIApplication app, NSDictionary options)
         {
@@ -52,9 +59,9 @@ HockeyApp gives you the information you need to improve your app, evolve with th
 
     Also check that your app's manifest has the permissions for internet access and to write into the external storage.
 
-6. Create a button and a handler for the button's Click (Android) or TouchUpInside (iOS) event which crashes the app, for example a division by zero.
+5. Create a button and a handler for the button's Click (Android) or TouchUpInside (iOS) event which crashes the app, for example a division by zero.
 
-7. Run your app on a real device, press the button, and notice how the crash appears on HockeyApp.
+6. Run your app on a real device, press the button, and notice how the crash appears on HockeyApp.
 
 ## Additional challenge: Symbolication
 

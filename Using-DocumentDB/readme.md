@@ -1,4 +1,4 @@
-# #Table Storage Hack #
+# Using DocumentDB  #
 
 ## Challenge ##
 In this challenge you will create a new DocumentDB. 

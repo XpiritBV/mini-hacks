@@ -1,4 +1,4 @@
-# Microsoft Cognitive Services Emotion API with Xamarin apps
+# Using Microsoft Cognitive Services Emotion API with Xamarin apps
 
 ### The Challenge
 In this challenge, you will use one of the [Microsoft Cognitive Services API's](https://www.microsoft.com/cognitive-services/) to bring intelligence to a Xamarin cross-platform application.

@@ -1,4 +1,4 @@
-# Azure Mobile Services
+# Using Azure Mobile Services
 
 ### The Challenge
 

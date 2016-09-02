@@ -1,4 +1,4 @@
-# Set up a IIS enabled Docker Image #
+# Setup an IIS enabled Docker Image #
 
 ## Challenge ##
 Getting started with Docker can be quite a challenge, but it is actually quite straightforward. Once you know the basics to get started, new perspectives will open up.

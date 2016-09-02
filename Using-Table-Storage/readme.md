@@ -1,7 +1,7 @@
-# #Table Storage Hack #
+# Using Table Storage#
 
 ## Challenge ##
-In this challenge you will create a new Azure Storage Account. You will use the Storage SDK to access Table Storage in that Account and learn how to read and write data.
+In this challenge you will create a new Azure Storage Account. You will use the Storage SDK to access Table Storage in that Account and learn how to read and write data. 
 
 ## Prerequisites ##
 To get started with this mini-hack, you will need the following 

@@ -1,4 +1,4 @@
-# Infrastructure as Code - Deploy ARM Template with Powershell #
+# Deploy ARM Template with Powershell #
 
 ## Challenge ##
 In Azure Resource Manager the easiest way to deploy and maintain infrastructure it by using ARM Templates. This minihack will get you started deploying your first ARM Template to Azure RM.
