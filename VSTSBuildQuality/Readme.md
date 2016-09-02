@@ -25,58 +25,36 @@ In this step you will set-up a new build definition that builds your project.
 
 - Open Visual Studio Team Services and navigate to the Build Hub. 
 - Create a new build definition based on the Visual Studio Template
-- Save the build as BuildQuality
+- Save the build as Product1
 - Queue the build
 
+### Set up approval flow for the build
+In this step we will create a release definition with a manual approval flow
 
+- Navigate to the Release Hub
+- Create a new Release Definition based on the Empty template and based on the build you just created 
+- Rename the environment to test and assign a approver for this environment
+- Add a 
+-  task and switch to Inline Powershell
+- Change the message from "Hello World!" into Approved
+- Start a new Release and approve it!
 
+### Setting Build Quality ###
+You can imagine that you can do more that executing a Powershell script. But in the end of the release stage you want to set the Build Quality of the related build to "Ready for Release". For this we are going to use the REST API of VSTS.
 
+- Create a [Scripts] folder in your project and add the Powershell script from the [source] folder 
+- Check in the script to your repository
+- Modify the build so that this script will be added as an artifact. You can do this by changing the [Contents] path of the Copy Files tasks to 
+    
+    `**\scripts\*`
+- Queue the build
+- Open the release definition and change the Powershell task to use a file. Point to the file in scripts folder
+- In the arguments add
 
+    `-BuildID $(RELEASE.ARTIFACTS.Product1.BUILDID) -BuildTags “Ready for Release;MiniHack”
 
+- Start the release
+- Check the build tags !
 
-
-### Validate your Docker Deployment ###
-Log in to the virtual machine and validate your Docker Host by typing the following command on a command line
-
-    docker run -ti windowsservercore cmd
-
-This starts up (docker run) a clean Windows Server Core docker container (windowsservercore) in terminal mode (-ti) and opens the command line in this container (cmd)
-
-
-Exit the container by typing
-
-    exit
-
-Try the following commands 
-
-
-
-- List all available images - `docker images` 
-- List all running containers - `docker ps`
-- List all running and stopped containers - `docker ps -a`
-
-
-### Start a container and enable IIS ###
-Start a new windowsservercore container. Once inside the container enter Powershell Mode by typing `powershell` on the command line. 
-
-Install the Web server feature in this container by typing.
-
-    Install-WindowsFeature Web-Server
-
-Also install the following components in your container
-- Web-Asp-net45
-- Web-Windows-Auth
-
-### Save your container as new base image ###
-Now that you have prepared the container you can save this container as a new base image.
-
-Exit the container and type `docker ps -a` to list all the stopped container. Find the container that was most recently stopped and take note of the name.	
-
-![](mh-docker-1.png)
-
-To save the current state of the container in a new container image you can commit the container by typing 
-
-    docker commit <container-hid-hash> techdaysmh:iisbase
-
-When the commit completes, run the command `docker images' and see that your image is there!
-
+### Links ###
+For a detailed explanation of the steps check [http://xpir.it/minihack-buildquality](http://xpir.it/minihack-buildquality "http://xpir.it/minihack-buildquality")

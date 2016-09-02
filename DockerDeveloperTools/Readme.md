@@ -15,7 +15,7 @@ To get started with this mini-hack, you need a Virtual Machine where you can run
 ## The Assignment ##
 
 ### Create 2 versions of a tool container ###
-From the [source-30] folder copy all the content to your Virtual Machine or clone the Git repository on your local machine. Open a command line to this folder and navigate to the [tool10] folder.
+From the [source] folder copy all the content to your Virtual Machine or clone the Git repository on your local machine. Open a command line to this folder and navigate to the [tool10] folder.
 
 Take a look at the Dockerfile and see what happens.
 
