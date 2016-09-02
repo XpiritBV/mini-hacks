@@ -36,7 +36,7 @@ With the new .NET Core you need to get used to the tooling again. Command line i
 ### Make it a web application
 1. Add a reference to the ASP.NET Core web server "Kestrel" by adding it to the `"dependencies"` section of the `project.json` file:
    
-   ``` json
+   ```json
     "dependencies": {
       "Microsoft.AspNetCore.Server.Kestrel": "1.0.0"
     },   
@@ -45,14 +45,14 @@ With the new .NET Core you need to get used to the tooling again. Command line i
 1. At the command prompt, restore the new dependency by typing `dotnet restore`
 1. Open the `Program.cs` file and add the following `using` statements to the top of the `Program.cs` file:
 
-   ``` c#
+   ```CSharp
    using Microsoft.AspNetCore.Builder;
    using Microsoft.AspNetCore.Http;
    using Microsoft.AspNetCore.Hosting;
    ```
 1. Change the `Main` method to:
 
-   ``` c#
+   ```CSharp
    public static void Main(string[] args)
    {
        var host = new WebHostBuilder()
