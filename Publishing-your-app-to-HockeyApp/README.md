@@ -1,3 +1,4 @@
+![Image of Yaktocat](../HackBanner.png)
 # Publishing your app to HockeyApp
 
 ## Challenge ##
