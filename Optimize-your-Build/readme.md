@@ -1,3 +1,4 @@
+![Xpirit TechDays MiniHack Banner](../HackBanner-s.png)
 # Optimize & Enhance your Build #
 
 ## Challenge ##
@@ -15,7 +16,7 @@ To get started with this mini-hack, you will need the following
 
 ## The Assignment ##
 
-### Step 1 ###
+### Step 1 - Edit the Build Definition ###
 
 Edit your build definition, and choose to make ik a Multi-Configuration Build.
 Specify the following Multipliers: **BuildConfiguration, BuildPlatform**
@@ -25,7 +26,7 @@ Specify the following BuildConfigurations to build: **Debug,Release**
 
 Build and verify the build uses multiple configurations.
 
-### Step 2 ###
+### Step 2 - Manage Multiple Artifacts ###
 
 Since we have multiple configurations, lets make sure we get the output seperatly dropped
 Update the Publish Artifacts step and specify the following Artifact Name: **DLL - $(BuildConfiguration)** 

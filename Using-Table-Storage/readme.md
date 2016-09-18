@@ -1,3 +1,4 @@
+![Xpirit TechDays MiniHack Banner](../HackBanner-s.png)
 # Using Table Storage#
 
 ## Challenge ##
@@ -7,11 +8,11 @@ In this challenge you will create a new Azure Storage Account. You will use the 
 To get started with this mini-hack, you will need the following 
 
 - An Azure Subscription
-    - See options here (https://azure.microsoft.com/en-us/pricing/purchase-options/)
+- See options here <https://azure.microsoft.com/en-us/pricing/purchase-options/>
 
 ## The Assignment ##
 
-### Step 1 Create the storage account ###
+### Step 1 - Create the storage account ###
 First navigate to the Azure Portal and log in. 
 
 - Select 'New' (top left corner) 'Data + Storage' and 'Storage Account'. 
@@ -19,14 +20,14 @@ First navigate to the Azure Portal and log in.
 - Wait until the Storage Account creation process completes. 
 - Navigate to the new Storage Account window, in 'Settings', select 'Access Keys'
 - Keep this window open for Step 2.
-### Step 2 Prepare a solution ###
+### Step 2 - Prepare a solution ###
 - Open Visual Studio
 - Create a new Solution, name it 'Azure Table Storage'.
 - Right click on the Project's 'References' node in the Solution Explorer. Select 'Manage Nuget Packages'. This opens the 'Nuget Package Manager'. 
 - Click on 'Browse' and enter the search term 'WindowsAzure.Storage'. 
 - Click 'Install' and accept the license agreements.
 - Right click on 'References' again, and add a framework reference to 'System.Configuration'.
-### Step 3 Configure the connection to the storage account ###
+### Step 3 - Configure the connection to the storage account ###
 - Open the file 'App.config' and add this configuration section:
 ``` xml
 <appSettings>
@@ -41,7 +42,7 @@ It should look like this:*
 </appSettings>
 ```
 
-### Step 4 Store Data ###
+### Step 4 - Store Data ###
 - Create a new class that will define the structure of the data we will persist. In this example, we'll store some information about Tech Days sessions.
   - Name the class 'Session'. The properties in this class will later become columns in the Table Storage table.
   - Objects of this type will be stored as rows in the Table.
@@ -146,7 +147,7 @@ private static void RetrieveSessions(CloudTable table)
 	}
 }
 ```
-### Step 5 Try it out ###
+### Step 5 - Try it out ###
 - Run the project
 You should see output similar to this:
 ![alt text](out.png "Console output")

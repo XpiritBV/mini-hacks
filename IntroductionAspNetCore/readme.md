@@ -1,3 +1,4 @@
+![Xpirit TechDays MiniHack Banner](../HackBanner-s.png)
 # Introduction to ASP.NET Core #
 
 ## Challenge ##
@@ -5,10 +6,10 @@ With the new .NET Core you need to get used to the tooling again. Command line i
 
 ## The Assignment ##
 
-### Install .NET Core SDK
+### Step 1 - Install .NET Core SDK
 1. Go to https://dot.net and follow the instructions to download and install the .NET Core SDK for your OS
 
-### Create skeleton application
+### Step 2 - Create skeleton application ###
 1. Open a command prompt
 1. Make a new directory to put your application in and change to it
 
@@ -20,7 +21,7 @@ With the new .NET Core you need to get used to the tooling again. Command line i
 1. Restore the application's dependencies by typing `dotnet restore`
 1. Verify that the application works by typing `dotnet run`
 
-### Change application to ASP.NET Core
+### Step 3 - Change application to ASP.NET Core ###
 You will add additional dependencies to change the command-line
 application to an ASP.NET application.
 
@@ -43,6 +44,7 @@ var host = new WebHostBuilder()
     .Build();
 host.Run();
 ```
+### Step 4 - Fix the code ###
 Fix the code by adding the relevant `using` statements. You can use IntelliSense to help with this, just like in Visual Studio 2015. 
 
 1. Add a new class called `Startup` and implement the Configure method
@@ -57,6 +59,7 @@ public void Configure(IApplicationBuilder app)
 ```
 Save all files.
 
+### Step 5 - Run the application ###
 1. Start your application by running `dotnet run` from the command-line again.
 sasad
 

@@ -1,3 +1,4 @@
+![Xpirit TechDays MiniHack Banner](../HackBanner-s.png)
 # Getting started with Git #
 
 ## Challenge ##
@@ -9,7 +10,7 @@ To get started with this mini-hack, you need to have the Git command line tools 
 
 ## The Assignment ##
 
-### Validate your Git installation ###
+### Step 1- Validate your Git installation ###
 
 Open a command line and type 
 
@@ -18,7 +19,7 @@ Open a command line and type
 you should see the git commands in your command window
 
 
-### Clone an exisiting repository
+### Step 2 - Clone an exisiting repository ###
 
 We do not always start fresh so we need a way to get stuff from an existing repository.
 
@@ -32,7 +33,7 @@ We do not always start fresh so we need a way to get stuff from an existing repo
 - Open Team Explorer and navigate to the [Connect] page
 - In the [Local Repositories] choose Clone and fill in the Mini-Hacks url `https://github.com/XpiritBV/mini-hacks`
 - 
-### Create a new Git Repo ###
+### Step 3 - Create a new Git Repo ###
 
 Now we will create a new Git repository. A repository starts locally and keeps all your changes and history. 
 
@@ -46,7 +47,7 @@ Now we will create a new Git repository. A repository starts locally and keeps a
 - Open Team Explorer and navigate to the [Connect] page
 - In the [Local Repositories] add a new Git Repo
 
-### Add files and commit changes ###
+### Step 4 - Add files and commit changes ###
 
 Your working folder is your complete Git repository. You can add/change/delete files in here. In order to make them part of the repository you need to add them to the staging area and commit the changes.
 
@@ -64,7 +65,7 @@ Your working folder is your complete Git repository. You can add/change/delete f
 - Open Team explorer and navigate to the changes tab
 - Commit your changes
 
-### Create a branch and merge changes ###
+### Step 5 - Create a branch and merge changes ###
 In Git a branch is just a pointer to a cmmoit making them really light-weight. You should create lots of them during your daily workflow
 
 **Command Line**
@@ -78,7 +79,7 @@ In Git a branch is just a pointer to a cmmoit making them really light-weight. Y
 - In Team Explorer create a branch featureA
 - Make changes and merge them back to the master branch
 
-### Pushing to a remote repository ###
+### Step 6 - Pushing to a remote repository ###
 In order to make your changes avalable to others you can either share your folder on the network or push to a central location like VSTS.
 
 -Create a new Team Project in VSTS and choose Git as Source Control System
@@ -93,6 +94,3 @@ In order to make your changes avalable to others you can either share your folde
 - Go to Settings | Repository settings
 - Add the remote [cloneurl] and call it `origin`
 - Go to the Sync Hub and publish your branch
- 
-
-- 

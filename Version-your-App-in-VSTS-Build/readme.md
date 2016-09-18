@@ -1,3 +1,4 @@
+![Xpirit TechDays MiniHack Banner](../HackBanner-s.png)
 # Version your App in VSTS Build #
 
 ## Challenge ##
@@ -15,7 +16,7 @@ To get started with this mini-hack, you will need the following
 
 ## The Assignment ##
 
-### Step 1 ###
+### Step 1 - Download Agent ###
 
 Download the latest Build Agent, by navigating to admin section of your VSTS account. 
 
@@ -28,12 +29,12 @@ After registration you can safely revoke this PAT.
 
 Verify that you have registerd your agent succesfully in VSTS. It should be visible in the selected pool, the indicator should light up green.
 
-### Step 2 ###
+### Step 2 - Use Local Agent ###
 
 Update the build definition to use your local agent. This is configured on the build definitions General tab.
 Run the build to verfiy the build runs on your local machine. 
 
-### Step 3 ###
+### Step 3 - Add PowerShell step ###
 
 Add a new PowerShell build step to the build, place it before the Visual Studio Build step.
 Configure the build step to run the provided script, **"\Scripts\SetAssemblyVersion.ps1**", in the repository.
@@ -43,7 +44,7 @@ Provide the scripts with the following Arguments **"-AssemblyVersion "1.0.C.D"**
 The script will determine an assembly number based on the current date.
 The pattern for this format is: **1.0.1609.2016** for the first build of on the 2nd of September 2016.
 
-### Step 4 ###
+### Step 4 - Artifacts ###
 
 Add a Copy Publish Artifacts files step to your build definition. Configure this step to drop the generated DLL as a server drop.
 

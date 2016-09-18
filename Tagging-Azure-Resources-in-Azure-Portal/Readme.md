@@ -1,3 +1,4 @@
+![Xpirit TechDays MiniHack Banner](../HackBanner-s.png)
 # Tagging Azure Resources in Azure Portal#
 
 ## Challenge ##
@@ -43,4 +44,4 @@ Pin the most important tags to your Dashboard for quick access.
 See the tags in the portal dashboad!
 
 
-Read more: https://azure.microsoft.com/en-us/documentation/articles/resource-group-using-tags/#portal
+Read more: <https://azure.microsoft.com/en-us/documentation/articles/resource-group-using-tags/#portal>

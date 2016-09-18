@@ -1,3 +1,4 @@
+![Xpirit TechDays MiniHack Banner](../HackBanner-s.png)
 # Use VSTS Release Management to set Build Quality #
 
 ## Challenge ##
@@ -8,7 +9,7 @@ To get started with this mini-hack, you need a Visual Studio Team Services Accou
 
 ## The Assignment ##
 
-### Create a new Team Project and upload source ###
+### Step 1 - Create a new Team Project and upload source ###
 In this step you need to create a new Team Project in VSTS and check-in a new Visual Studio Code Project into VSTS.
 
 - Log in to your VSTS account and create a new Team Project. As a name suggestion you can call it BuildQuality-Minihack
@@ -20,7 +21,7 @@ In this step you need to create a new Team Project in VSTS and check-in a new Vi
 - For TFVC - [https://www.visualstudio.com/en-us/docs/tfvc/add-files-server](https://www.visualstudio.com/en-us/docs/tfvc/add-files-server "https://www.visualstudio.com/en-us/docs/tfvc/add-files-server")
 - For Git - [https://www.visualstudio.com/en-us/docs/git/tutorial/creatingrepo](https://www.visualstudio.com/en-us/docs/git/tutorial/creatingrepo "https://www.visualstudio.com/en-us/docs/git/tutorial/creatingrepo")
 
-### Set up a build for your project ###
+### Step 2 - Set up a build for your project ###
 In this step you will set-up a new build definition that builds your project.
 
 - Open Visual Studio Team Services and navigate to the Build Hub. 
@@ -28,7 +29,7 @@ In this step you will set-up a new build definition that builds your project.
 - Save the build as Product1
 - Queue the build
 
-### Set up approval flow for the build
+### Step 3 - Set up approval flow for the build ###
 In this step we will create a release definition with a manual approval flow
 
 - Navigate to the Release Hub
@@ -39,7 +40,7 @@ In this step we will create a release definition with a manual approval flow
 - Change the message from "Hello World!" into Approved
 - Start a new Release and approve it!
 
-### Setting Build Quality ###
+### Step 4 - Setting Build Quality ###
 You can imagine that you can do more that executing a Powershell script. But in the end of the release stage you want to set the Build Quality of the related build to "Ready for Release". For this we are going to use the REST API of VSTS.
 
 - Create a [Scripts] folder in your project and add the Powershell script from the [source] folder 
@@ -56,5 +57,5 @@ You can imagine that you can do more that executing a Powershell script. But in 
 - Start the release
 - Check the build tags !
 
-### Links ###
+### Step 5 - Links ###
 For a detailed explanation of the steps check [http://xpir.it/minihack-buildquality](http://xpir.it/minihack-buildquality "http://xpir.it/minihack-buildquality")

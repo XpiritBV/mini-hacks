@@ -1,4 +1,4 @@
-##### Create an Android blank project
+### Create an Android blank project ###
 
 1. With Visual Studio 2015 or Xamarin Studio, create a new project with the Templates > Visual C# > Android > Blank App (Android) project template. Use a name like "AndroidApp" and a new solution with a name like "XamarinCognitive". Click the OK button and the project will be created for you.
 
@@ -6,7 +6,7 @@
     * Microsoft.Bcl.Build
     * Microsoft.ProjectOxford.Emotion
 
-##### Design the UI layer
+### Design the UI layer ###
 
 The UI should be composed of an ImageView, a TextView and a Button. You can create them by opening the ```Resources/layout/Main.axml``` file with the Designer or the Source view. You can copy/paste the following code to save some time:
 
@@ -38,7 +38,7 @@ The UI should be composed of an ImageView, a TextView and a Button. You can crea
 
 Build the solution which will add the control IDs to the ```Resource.Designer.cs``` file so that you can refer to controls by name in code.
 
-##### Get the camera stream, take a picture and send the stream to the shared code
+### Get the camera stream, take a picture and send the stream to the shared code ###
 
  The logic behind the UI is quite simple.  
  The button is bound to an event, which creates the logic associated to the ActionImageCapture Android Intent.  
@@ -236,7 +236,7 @@ using Java.IO;
 ```
 If you build your project, you should have an issue with the usage of "Core", which does not exist yet. This will be the next step.
 
-##### Create a shared project with the logic to call the Cognitive Service API
+### Create a shared project with the logic to call the Cognitive Service API ###
 
 Create a new project in your solution, with the Templates > Visual C# > Shared Project template. Use a name like "SharedProject".
 
@@ -310,7 +310,7 @@ Finally, you have to add the following using statement in your MainActivity.cs c
 using SharedProject;
 ```
 
-##### Declare the right capabilities for your app
+### Declare the right capabilities for your app ###
 
 Right click on the Android Project and select Properties.  Click on the Android Manifest on the left panel and request the Required Permissions:
 
@@ -320,10 +320,14 @@ Right click on the Android Project and select Properties.  Click on the Android 
 
 Save the project properties.
 
-##### Build and run the project
+### Build and run the project ###
 
 Build the solution and run the project thanks to the Visual Studio Emulator (pressing F5 is a good option for that).
 
 Before playing with the app, you should tell the emulator to use your laptop camera as the emulator front-facing camera. You can do that by opening the Tools menu (">>" icon), "Camera" tab.
 
 By clicking on the "Take a picture" button, you should launch the webcam capture. Validating the capture will send the picture to the API and display the result on the screen.
+
+
+### Navigate ###
+Navigate back to the [Readme.md](Readme.md)

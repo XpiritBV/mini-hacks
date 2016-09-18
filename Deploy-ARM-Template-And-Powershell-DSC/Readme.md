@@ -1,3 +1,4 @@
+![Xpirit TechDays MiniHack Banner](../HackBanner-s.png)
 # Deploy ARM Template and Powershell DSC #
 
 ## Challenge ##

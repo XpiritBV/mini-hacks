@@ -1,8 +1,8 @@
-#### Bonus Challenge #1 Walkthrough
+### Bonus Challenge #1 Walkthrough ###
 
 As we have used a Shared Project, the logic can be easily shared between several apps. We're going to demonstrate this by adding a Universal Windows Platform application to the solution, to target the hundreds of millions Windows 10 devices out there.
 
-##### Create a UWP project in your solution
+### Create a UWP project in your solution ###
 
 Create a new project in your solution, with the Templates > Visual C# > Windows > Universal > Blank App (Universal Windows) template. Use a name like "WindowsApp" and choose the appropriate target and minimum versions if prompted.
 
@@ -11,7 +11,7 @@ Add the following Nuget package to your project:
 
 You can now add a reference to your SharedProject project from you UWP app, the same way you did with the Android project.
 
-##### Design the UI layer
+### Design the UI layer ###
 
 For this single page application, the UI layer can be built in the ```MainPage.xaml``` file. We're going to use a CaptureElement, an Image, a TextBlock and a Button for our UI. You can copy/paste the following code to save some time:
 
@@ -46,7 +46,7 @@ For this single page application, the UI layer can be built in the ```MainPage.x
 </Page>
 ```
 
-##### Get the camera stream, take a picture and send the stream to the shared code
+### Get the camera stream, take a picture and send the stream to the shared code ###
 
 The logic behind the UI is quite simple.  
 The MediaCapture is triggered during the page load, the button is bound to an event, which saves the picture as a bitmap, display it on the UI and then send it as a stream to the business logic.
@@ -154,16 +154,19 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media.Imaging;
 ```
 
-##### Declare the right capabilities for your app
+### Declare the right capabilities for your app ###
 
 Open the ```Package.appxmanifest``` file, and add the following Capabilities to your application, thanks to the correct checkboxes in the Capabilities tab:
 * Microphone
 * Webcam
 
-##### Configure, build and run the project
+### Configure, build and run the project ###
 
 In the Solution Configuration Manager (by right clicking on the solution node in the Solution Explorer), check the Build and Deploy checkboxes for your UWP project.
 
 Build the solution and run the UWP project. You don't need an Emulator by [using Windows 10 as a development machine](https://msdn.microsoft.com/en-us/windows/uwp/get-started/enable-your-device-for-development#enable-your-windows-10-devices).
 
 By clicking on the "Take a picture" button, you will capture a picture, send it to the API and display the result on the screen.
+
+### Navigate ###
+Navigate back to the [Readme.md](Readme.md)

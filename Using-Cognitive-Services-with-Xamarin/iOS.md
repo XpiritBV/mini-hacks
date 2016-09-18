@@ -1,11 +1,11 @@
-##### Create a Xamarin.iOS project in Visual Studio 2015 and Xamarin or Xamarin Studio setup
+### Create a Xamarin.iOS project in Visual Studio 2015 and Xamarin or Xamarin Studio setup ###
 
 1. With Visual Studio 2015 or Xamarin Studio, create a new project with the iOS > Single View App template.
 
 2. Add the following Nuget package to your project:
     * Microsoft.ProjectOxford.Emotion
 
-##### Design the UI layer
+### Design the UI layer ###
 
 The UI should be composed of an UIImageView, a UILabel and a UIButton. Open up Main.storyboard and lay them out similar to:
 
@@ -19,7 +19,7 @@ You may need to set the ViewAs to your specific phone or add constraints for eve
 
 Feel free to ask the person running the mini-hack for assistence if needed.
 
-##### Get the camera stream, take a picture and send the stream to the shared code
+### Get the camera stream, take a picture and send the stream to the shared code ###
 
  The logic behind the UI is quite simple.  
  The button TouchDown is bound to OnTakePhotoPressed, which invokes UIImagePickerController to snap the photo.
@@ -78,7 +78,7 @@ using UIKit;
 If you build your project, you should have an issue with the usage of "Core", which does not exist yet. This will be the next step.
 
 
-##### Create a shared project with the logic to call the Cognitive Service API
+### Create a shared project with the logic to call the Cognitive Service API ###
 
 Create a new project in your solution, with the Templates > Visual C# > Shared Project template. Use a name like "SharedProject".
 
@@ -146,8 +146,11 @@ using System.Threading.Tasks;
 
 You can now add a reference to your SharedProject project from you iOS app, by using the wizard available after a right clicking on the "References" node in the Solution Explorer. One section of this wizard is a listing of all the Shared Projects available in your solution.
 
-##### Build and run the project
+### Build and run the project ###
 
 Build the solution and run the project on device (there is no webcam access from the iOS emulator. 
 
 By clicking on the "Take a picture" button, you should launch the webcam capture. Validating the capture will send the picture to the API and display the result on the screen.
+
+### Navigate ###
+Navigate back to the [Readme.md](Readme.md)

@@ -1,3 +1,4 @@
+![Xpirit TechDays MiniHack Banner](../HackBanner-s.png)
 # Deploy ARM Template with the Azure Portal #
 
 ## Challenge ##

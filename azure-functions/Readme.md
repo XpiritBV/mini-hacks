@@ -1,3 +1,4 @@
+![Xpirit TechDays MiniHack Banner](../HackBanner-s.png)
 # Using Azure Functions #
 
 ## Challenge ##
@@ -11,7 +12,7 @@ To get started with this mini-hack, you need to be logged in to your Microsoft A
 
 ## The Assignment ##
 
-### Create an empty Azure Function App ###
+### Step 1 - Create an empty Azure Function App ###
 Let's start by creating a new Azure Function. Azure Functions are called "**Function App**" in the Azure portal.
 - Click the New Button on the left hand side.
 - Search for `Function App` and select this resource.
@@ -21,7 +22,7 @@ Let's start by creating a new Azure Function. Azure Functions are called "**Func
 afterwards.
 - Choose the Classic plan and accept the default suggested plan, location and storage account.
 
-### Implement an Add calculation ###
+### Step 2 - Implement an Add calculation ###
 You should now have a 
 
 ```CSharp

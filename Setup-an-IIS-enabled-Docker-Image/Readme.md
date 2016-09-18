@@ -1,3 +1,4 @@
+![Xpirit TechDays MiniHack Banner](../HackBanner-s.png)
 # Setup an IIS enabled Docker Image #
 
 ## Challenge ##
@@ -14,48 +15,79 @@ To get started with this mini-hack, you need a Virtual Machine where you can run
 
 ## The Assignment ##
 
-### Validate your Docker Deployment ###
+### Step 1 - Validate your Docker Deployment ###
 Log in to the virtual machine and validate your Docker Host by typing the following command on a command line
 
-    docker run -ti windowsservercore cmd
+   ```
+   docker run -ti windowsservercore cmd
+   ```
 
 This starts up (docker run) a clean Windows Server Core docker container (windowsservercore) in terminal mode (-ti) and opens the command line in this container (cmd)
 
 
 Exit the container by typing
 
-    exit
+   ```
+   exit
+   ```
 
 Try the following commands 
 
+List all available images
 
+   ```
+   docker images
+   ```
 
-- List all available images - `docker images` 
-- List all running containers - `docker ps`
-- List all running and stopped containers - `docker ps -a`
+List all running containers
 
+   ```
+   docker ps
+   ```
+List all running and stopped containers
 
-### Start a container and enable IIS ###
-Start a new windowsservercore container. Once inside the container enter Powershell Mode by typing `powershell` on the command line. 
+   ```
+   docker ps -a
+   ```
+
+### Step 2 - Start a container and enable IIS ###
+Start a new windowsservercore container. Once inside the container enter Powershell Mode by typing the following on the command line. 
+
+   ```
+   powershell
+   ```
 
 Install the Web server feature in this container by typing.
 
-    Install-WindowsFeature Web-Server
-
+   ```
+   Install-WindowsFeature Web-Server
+   ```
+    
 Also install the following components in your container
 - Web-Asp-net45
 - Web-Windows-Auth
 
-### Save your container as new base image ###
+### Step 3 - Save your container as new base image ###
 Now that you have prepared the container you can save this container as a new base image.
 
-Exit the container and type `docker ps -a` to list all the stopped container. Find the container that was most recently stopped and take note of the name.	
+Exit the container and type 
+
+   ```
+   docker ps -a
+   ```
+
+to list all the stopped container. Find the container that was most recently stopped and take note of the name.	
 
 ![](mh-docker-1.png)
 
 To save the current state of the container in a new container image you can commit the container by typing 
 
-    docker commit <container-hid-hash> techdaysmh:iisbase
+   ```
+   docker commit <container-hid-hash> techdaysmh:iisbase
+   ```
 
-When the commit completes, run the command `docker images' and see that your image is there!
+When the commit completes, run the command follwing command and see that your image is there!
 
+   ```
+   docker images
+   ```

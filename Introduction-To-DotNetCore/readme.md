@@ -1,3 +1,4 @@
+![Xpirit TechDays MiniHack Banner](../HackBanner-s.png)
 # Introduction to the .NET Core SDK #
 
 ## Challenge ##
@@ -5,10 +6,10 @@ With the new .NET Core you need to get used to the tooling again. Command line i
 
 ## The Assignment ##
 
-### Install the .NET Core SDK
+### Step 1 - Install the .NET Core SDK ###
 1. Go to https://dot.net and follow the instructions to download and install the .NET Core SDK for your OS
 
-### Create and run your first application
+### Step 2 - Create and run your first application ###
 1. Open a command prompt
 1. Make a new directory to put your application in and change to it
 
@@ -22,18 +23,18 @@ With the new .NET Core you need to get used to the tooling again. Command line i
 1. Open the `Program.cs` file and change the greeting message
 1. Run the application again using `dotnet run` and note the message about the application being re-built
 
-### Run the project output directly
+### Step 3 - Run the project output directly ###
 1. `dotnet run` checks the project source every time to determine if a re-build is necessary and as such is intended for active development scenarios.
 1. Run the project output directly by typing `dotnet ./bin/Debug/netcoreapp1.0/MyNewApp.dll`
 1. Change the greeting in `Program.cs` again and run the application output directly once more, note that the greeting doesn't change as you didn't re-build the project.
 1. Build the project by typing `dotnet build`
 1. Run the project output directly again and see the greeting has now changed 
 
-### Explore the project files
+### Step 4 - Explore the project files ###
 1. Open the `project.json` file in Visual Studio and explore its contents and try using the IntelliSense to change some project configuration values
 1. Look at the files and directories created when the project is built
 
-### Make it a web application
+### Step 5 - Make it a web application ###
 1. Add a reference to the ASP.NET Core web server "Kestrel" by adding it to the `"dependencies"` section of the `project.json` file:
    
    ```json
