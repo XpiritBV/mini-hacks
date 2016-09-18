@@ -1,8 +1,8 @@
 ### Create an Android blank project ###
 
-1. With Visual Studio 2015 or Xamarin Studio, create a new project with the Templates > Visual C# > Android > Blank App (Android) project template. Use a name like "AndroidApp" and a new solution with a name like "XamarinCognitive". Click the OK button and the project will be created for you.
+- With Visual Studio 2015 or Xamarin Studio, create a new project with the Templates > Visual C# > Android > Blank App (Android) project template. Use a name like "AndroidApp" and a new solution with a name like "XamarinCognitive". Click the OK button and the project will be created for you.
 
-2. Add the following Nuget packages to your project (in the correct order):
+- Add the following Nuget packages to your project (in the correct order):
     * Microsoft.Bcl.Build
     * Microsoft.ProjectOxford.Emotion
 
