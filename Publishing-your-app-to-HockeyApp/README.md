@@ -1,5 +1,4 @@
-<img src="../HackBanner.png" width="960" />
-
+![Xpirit TechDays MiniHack Banner](..\HackBanner-s.png)
 # Publishing your app to HockeyApp
 
 ## Challenge ##
