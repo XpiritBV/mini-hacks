@@ -1,3 +1,4 @@
+![Xpirit TechDays MiniHack Banner](../HackBanner-s.png)
 # Creating a Build Definition
 
 ## Challenge ##
@@ -15,34 +16,32 @@ To get started with this mini-hack, you will need the following
 
 ## The Assignment ##
 
-### Step 1 ###
+### Step 1 - Getting the code ###
 First navigate to the Xpirit GitHub (https://github.com/xpiritbv)
 Fork the existing repository under your account.
 
-### Step 2 ###
+### Step 2 - Create a build definition ###
 Navigate to your VSTS Account. Create a new build definition, choose to start with an empty template.
 
 Bind the forked GitHub repository to your build definition. 
 
 Make a new 'Connection' that allows you to connect to GitHub from VSTS. Authorize the usage of GitHub. Choose the forked repository. Use the 'Master' branch. Save your build definition, provide a name, and validate if the build is succesfull. If you have a green build you can take the next step.
 
-### Step 3 ###
+### Step 3 - Building the solution ###
 Add the 'Visual Studio Build' task and configure this to build the solution.
 
-### Step 4 ###
+### Step 4 - Running the tests ###
 Add the 'Visual Studio Test' step and configure this to run the tests.
 Run the build to verify that the unit test passed.
 
-### Finished! ###
-You have succesfully finished this Mini-Hack, please go to the host and have your badge scanned. Be sure to scan the badge with the Mini-Hack app!
+## Finished! ##
+You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
-If you do not have the Mini-Hack App yet be sure to download 
-- iOS
-- Android
-- Windows Phone 8
-- Windows Phone 10
+- Succesfull build with unittest result in the summary
 
-Save the badge to your photo stream and tweet about it!
-From every X shared badges we will draw a prize winner!
+After validation by the host you can use the TechDays 16 app to unlock the a Mini-Hack specific badge!
 
-Gather all badges and make change to join us at the speaker dinner october 4th hosted by Xpirit!
+If you do not have the TechDays 16 App yet be sure to download it;
+- iOS <https://xpir.it/td16-ios>
+- Android <https://xpir.it/td16-droid>
+- Windows Phone <https://xpir.it/td16-win>

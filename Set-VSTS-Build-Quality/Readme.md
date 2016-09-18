@@ -59,3 +59,15 @@ You can imagine that you can do more that executing a Powershell script. But in 
 
 ### Step 5 - Links ###
 For a detailed explanation of the steps check [http://xpir.it/minihack-buildquality](http://xpir.it/minihack-buildquality "http://xpir.it/minihack-buildquality")
+
+## Finished! ##
+You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+
+- 
+
+After validation by the host you can use the TechDays 16 app to unlock the a Mini-Hack specific badge!
+
+If you do not have the TechDays 16 App yet be sure to download it;
+- iOS <https://xpir.it/td16-ios>
+- Android <https://xpir.it/td16-droid>
+- Windows Phone <https://xpir.it/td16-win>

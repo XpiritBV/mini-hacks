@@ -53,4 +53,17 @@ The information should be filled in for you and all you have to do is click on *
 ### Step 13 - Reload Mobile Client ###
 Once published, you can now reload your iOS or Android mobile client - it will be using the ASP.NET backend.
 
-Using the ASP.NET backend gives you access to all the power of ASP.NET, OWIN, Entity Framework and more.  However, you lose the ability to view the data on the server.  Use Visual Studio or SQL Server Management Studio for this purpose instead.
+Using the ASP.NET backend gives you access to all the power of ASP.NET, OWIN, Entity Framework and more.  However, you lose the ability to view the data on the server.  
+Use Visual Studio or SQL Server Management Studio for this purpose instead.
+
+## Finished! ##
+You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+
+- 
+
+After validation by the host you can use the TechDays 16 app to unlock the a Mini-Hack specific badge!
+
+If you do not have the TechDays 16 App yet be sure to download it;
+- iOS <https://xpir.it/td16-ios>
+- Android <https://xpir.it/td16-droid>
+- Windows Phone <https://xpir.it/td16-win>

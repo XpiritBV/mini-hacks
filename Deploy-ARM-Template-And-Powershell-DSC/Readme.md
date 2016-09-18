@@ -46,6 +46,17 @@ Deploy the project and fill in all requested fields
 ### Step 11 - Connect to VM ###
 Connect to the Virtual Machine in Azure
 
-## Finished! ##
 ### Step 12 - Create Storage Account ###
 See that IIS and all other options that are configured in DSC are installed
+
+## Finished! ##
+You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+
+- 
+
+After validation by the host you can use the TechDays 16 app to unlock the a Mini-Hack specific badge!
+
+If you do not have the TechDays 16 App yet be sure to download it;
+- iOS <https://xpir.it/td16-ios>
+- Android <https://xpir.it/td16-droid>
+- Windows Phone <https://xpir.it/td16-win>

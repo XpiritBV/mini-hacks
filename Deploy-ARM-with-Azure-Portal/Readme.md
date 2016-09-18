@@ -27,5 +27,18 @@ The *Azure portal* is opened. Login if needed.
 ### Step 5 - Fill parameters ###
 Create or use a ResourceGroup and *fill in the parameters*. *Click on OK* to execute the ARM template.
 
+## Step 6 - Validate ###
+Navigate in the Azure Portal to the ResourceGroup to see which resources are created.
+
+
 ## Finished! ##
-Navigate in the Azure Portal to the ResourceGroup to see which resources are created
+You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+
+- 
+
+After validation by the host you can use the TechDays 16 app to unlock the a Mini-Hack specific badge!
+
+If you do not have the TechDays 16 App yet be sure to download it;
+- iOS <https://xpir.it/td16-ios>
+- Android <https://xpir.it/td16-droid>
+- Windows Phone <https://xpir.it/td16-win>

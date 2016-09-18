@@ -213,16 +213,14 @@ You should see output similar to this:
 
 At this point you have created an Azure DocumentDB, added a database and documentcollection, and used that collection to store data about a TechDays session!
 
-### Finished! ###
-You have succesfully finished this Mini-Hack, please go to the host and have your badge scanned. Be sure to scan the badge with the Mini-Hack app!
+## Finished! ##
+You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
-If you do not have the Mini-Hack App yet be sure to download 
-- iOS
-- Android
-- Windows Phone 8
-- Windows Phone 10
+- 
 
-Save the badge to your photo stream and tweet about it!
-From every X shared badges we will draw a prize winner!
+After validation by the host you can use the TechDays 16 app to unlock the a Mini-Hack specific badge!
 
-Gather all badges and make change to join us at the speaker dinner october 4th hosted by Xpirit!
+If you do not have the TechDays 16 App yet be sure to download it;
+- iOS <https://xpir.it/td16-ios>
+- Android <https://xpir.it/td16-droid>
+- Windows Phone <https://xpir.it/td16-win>

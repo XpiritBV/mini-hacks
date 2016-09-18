@@ -44,5 +44,14 @@ Run either the iOS or Android application and add some todo items
 ### Step 1 - Azure Portal ###
 If you head back to the [Azure Portal](https://portal.azure.com), click on your App Service, then select **Easy tables**, followed by **TodoItem**.  Note that you can see the raw data for your todo items in the SQL table.
 
-### Finished! ###
-Congratulations, you've completed the Azure App Service mini-hack!
+## Finished! ##
+You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+
+- Show the docker history to validate you have run the correct instances
+
+After validation by the host you can use the TechDays 16 app to unlock the a Mini-Hack specific badge!
+
+If you do not have the TechDays 16 App yet be sure to download it;
+- iOS <https://xpir.it/td16-ios>
+- Android <https://xpir.it/td16-droid>
+- Windows Phone <https://xpir.it/td16-win>

@@ -94,3 +94,16 @@ In order to make your changes avalable to others you can either share your folde
 - Go to Settings | Repository settings
 - Add the remote [cloneurl] and call it `origin`
 - Go to the Sync Hub and publish your branch
+
+
+## Finished! ##
+You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+
+- 
+
+After validation by the host you can use the TechDays 16 app to unlock the a Mini-Hack specific badge!
+
+If you do not have the TechDays 16 App yet be sure to download it;
+- iOS <https://xpir.it/td16-ios>
+- Android <https://xpir.it/td16-droid>
+- Windows Phone <https://xpir.it/td16-win>

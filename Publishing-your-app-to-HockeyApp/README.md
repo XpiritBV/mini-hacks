@@ -69,14 +69,22 @@ Create a button and a handler for the button's Click (Android) or TouchUpInside 
 ### Step 6 - Running the app ###
 Run your app on a real device, press the button, and notice how the crash appears on HockeyApp.
 
-## Additional challenge
-
-### Symbolication ###
+### Optional Step 7 - Symbolication ###
 
 HockeyApp can fully symbolicate your crash reports. To enable this, you need to upload your dSYM file. Find the dSYM file for the last build, zip it, then drag & drop it to your HockeyApp app page. After a few minutes, you will see the symbolicated crash report.
 
-## Additional challenge
-
-### Custom Events ###
+### Optional Step 8 - Custom Events ###
 
 With the basic integration above, you can already see unique users, new users, sessions, and crash impacted users. To learn even more about your app's usage, add a few TrackEvent calls to your app and inspect the data in the Events tab on HockeyApp.
+
+## Finished! ##
+You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+
+- 
+
+After validation by the host you can use the TechDays 16 app to unlock the a Mini-Hack specific badge!
+
+If you do not have the TechDays 16 App yet be sure to download it;
+- iOS <https://xpir.it/td16-ios>
+- Android <https://xpir.it/td16-droid>
+- Windows Phone <https://xpir.it/td16-win>

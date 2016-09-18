@@ -41,7 +41,17 @@ Pin the most important tags to your Dashboard for quick access.
 ![Image of Pin tags to the Startboard](./show-pinned-tag.png)
 
 ## Finished! ##
-See the tags in the portal dashboad!
+You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+
+- Show the tags in the portal dashboad
+
+After validation by the host you can use the TechDays 16 app to unlock the a Mini-Hack specific badge!
+
+If you do not have the TechDays 16 App yet be sure to download it;
+- iOS <https://xpir.it/td16-ios>
+- Android <https://xpir.it/td16-droid>
+- Windows Phone <https://xpir.it/td16-win>
 
 
+## Background Information ##
 Read more: <https://azure.microsoft.com/en-us/documentation/articles/resource-group-using-tags/#portal>

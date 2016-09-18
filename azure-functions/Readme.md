@@ -2,7 +2,7 @@
 # Using Azure Functions #
 
 ## Challenge ##
-TODO
+In this Mini-Hack you will learn how to create a new Azure Function App. 
 
 ## Prerequisites
 To get started with this mini-hack, you need to be logged in to your Microsoft Azure account.
@@ -18,12 +18,11 @@ Let's start by creating a new Azure Function. Azure Functions are called "**Func
 - Search for `Function App` and select this resource.
 - Click Create.
 - Give the Function a globally unique name, e.g. `TechDaysFunction[YourName]`
-- Add the Function to a new Resource Group. This will allow you to easily delete the functions and its resources 
-afterwards.
+- Add the Function to a new Resource Group. This will allow you to easily delete the functions and its resources afterwards.
 - Choose the Classic plan and accept the default suggested plan, location and storage account.
 
 ### Step 2 - Implement an Add calculation ###
-You should now have a 
+Add the following code to add a calculation method to the App
 
 ```CSharp
 using System.Net;
@@ -46,3 +45,15 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceW
     return req.CreateResponse(HttpStatusCode.OK, $"{x} + {y} = {result}");
 }
 ```
+
+## Finished! ##
+You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+
+- 
+
+After validation by the host you can use the TechDays 16 app to unlock the a Mini-Hack specific badge!
+
+If you do not have the TechDays 16 App yet be sure to download it;
+- iOS <https://xpir.it/td16-ios>
+- Android <https://xpir.it/td16-droid>
+- Windows Phone <https://xpir.it/td16-win>

@@ -1,11 +1,11 @@
 ![Xpirit TechDays MiniHack Banner](../HackBanner-s.png)
 # Controlling your Philips Hue
 
-
 ## The Challenge ##
-You'll need to control Hue lamps from a Xamarin.Forms app. 
+In this Mini-Hack you will learn how to control a Hue lamp from a Xamarin.Forms app. 
 
-> You'll want to ensure that you've restored the Nuget packages before trying to build the project. You may also need to configure Android deployment within the configuration manager in VS to deploy to a simulator or device (this isn't applicable for those of you using Xamarin Studio). 
+> You'll want to ensure that you've restored the Nuget packages before trying to build the project. 
+You may also need to configure Android deployment within the configuration manager in Visual Studio to deploy to a simulator or device (this isn't applicable for those of you using Xamarin Studio). 
 
 ## Prerequisites ##
 Amazing Philip Hue: [Turn On Living video on YouTube] (https://www.youtube.com/watch?v=lCv4r3wgsPQ) 
@@ -102,3 +102,15 @@ Whitelisting and permission to access the bridge
    var lights = new List<string> { SelectedLight.Id };
    await client.SendCommandAsync(command, lights);
    ```  
+
+## Finished! ##
+You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+
+- 
+
+After validation by the host you can use the TechDays 16 app to unlock the a Mini-Hack specific badge!
+
+If you do not have the TechDays 16 App yet be sure to download it;
+- iOS <https://xpir.it/td16-ios>
+- Android <https://xpir.it/td16-droid>
+- Windows Phone <https://xpir.it/td16-win>
