@@ -1,3 +1,1 @@
-# Mini Hacks
-
-* [Samples](./_sample/readme.md)
+![Xpirit TechDays MiniHack Banner](./HackBanner-s.png)
