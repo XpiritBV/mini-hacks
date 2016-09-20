@@ -2,7 +2,7 @@
 # Use VSTS Release Management to set Build Quality #
 
 ## Challenge ##
-In a multi-team environment where teams maintain their own builds and where a release contains multiple components it is important to keep rack of Build Quality. In this way you can easily get the builds you need without having to contact all the teams. You can use VSTS Release Management to achieve this.
+In a multi-team environment where teams maintain their own builds and where a release contains multiple components it is important to keep track of Build Quality. In this way you can easily get the builds you need without having to contact all the teams. You can use VSTS Release Management to achieve this.
 
 ## Prerequisites ##
 To get started with this mini-hack, you need a Visual Studio Team Services Account. 
