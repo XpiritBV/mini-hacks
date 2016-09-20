@@ -99,7 +99,8 @@ In order to make your changes avalable to others you can either share your folde
 ## Finished! ##
 You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
-- 
+- Show us a local repo with some branches
+- Show us the pushed repo on either Github or VSTS
 
 After validation by the host you can use the TechDays 16 app to unlock the a Mini-Hack specific badge!
 
