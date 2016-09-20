@@ -71,7 +71,7 @@ With the new .NET Core you need to get used to the tooling again. Command line i
 ## Finished! ##
 You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
-- 
+- Show us the running ASP.NET application
 
 After validation by the host you can use the TechDays 16 app to unlock the a Mini-Hack specific badge!
 
