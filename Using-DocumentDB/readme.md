@@ -49,6 +49,7 @@ It should look like this:*
 - Create a new class that will define the structure of the data we will persist. In this example, we'll store some information about Tech Days sessions.
   - Name the class 'Session'. The properties in this class will later become columns in the Table Storage table.
   - Objects of this type will be stored as rows in the Table.
+  
 ``` csharp
 using System;
 using Newtonsoft.Json;
@@ -75,6 +76,7 @@ namespace DocumentDB
 ```
 
 - In 'Program.cs' add the following code to import the right namespaces
+
 ``` csharp
 using System;
 using System.Configuration;
@@ -85,6 +87,7 @@ using Microsoft.Azure.Documents.Client;
 ```
 
 - Add code that creates a new Session instance:
+
 ``` csharp
 private static Session CreateSession()
 {
@@ -108,7 +111,9 @@ private static Session CreateSession()
 	return session;
 }
 ```
+
 - Add code that creates the Table and calls Insert and Retrieve operations (we'll add those later on):
+
 ``` csharp
 static void Main()
 {
@@ -128,8 +133,11 @@ static void Main()
 	Console.WriteLine("Hit any key to exit...");
 	Console.ReadKey(true);
 }
+
 ```
+
 - Add code that creates the database and document collection if it does not exist yet.
+
 ``` csharp
 private static void CreateDatabase(DocumentClient documentClient)
 {
@@ -182,6 +190,7 @@ private static void CreateDocumentCollection(DocumentClient documentClient)
 ```
 
 - Add code that inserts a new Session instance into the Table:
+
 ``` csharp
 private static void InsertSession(IDocumentClient client)
 {
@@ -191,6 +200,7 @@ private static void InsertSession(IDocumentClient client)
 ```
 
 - Add code that queries Session instances from the Table:
+
 ``` csharp
 private static void RetrieveSessions(DocumentClient client)
 {
@@ -206,6 +216,7 @@ private static void RetrieveSessions(DocumentClient client)
 	}
 }
 ```
+
 ### Step 5 - Try it out ###
 Run the project
 You should see output similar to this:
@@ -216,7 +227,7 @@ At this point you have created an Azure DocumentDB, added a database and documen
 ## Finished! ##
 You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
-- 
+- Console output similar to the screenshot.
 
 After validation by the host you can use the TechDays 16 app to unlock the a Mini-Hack specific badge!
 
