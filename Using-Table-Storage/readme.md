@@ -29,13 +29,16 @@ First navigate to the Azure Portal and log in.
 - Right click on 'References' again, and add a framework reference to 'System.Configuration'.
 ### Step 3 - Configure the connection to the storage account ###
 - Open the file 'App.config' and add this configuration section:
+
 ``` xml
 <appSettings>
 	<add key="Azure.Storage.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName={account};AccountKey={key}" />
 </appSettings>
 ```
+
 *Replace the values for '{account}' and '{key}' with the values from the 'Access Keys' Window in the Azure Portal you opened in Step 2.
 It should look like this:*
+
 ``` xml
 <appSettings>
 	<add key="Azure.Storage.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=MyBrandNewAccount;AccountKey=DgpLX/UfatDR5I18C8Qn/2qFg34h4Hedh40aLOoOAbCf$ghSgDhas/NQ==" />
@@ -46,6 +49,7 @@ It should look like this:*
 - Create a new class that will define the structure of the data we will persist. In this example, we'll store some information about Tech Days sessions.
   - Name the class 'Session'. The properties in this class will later become columns in the Table Storage table.
   - Objects of this type will be stored as rows in the Table.
+  
 ``` csharp
 using System;
 using Microsoft.WindowsAzure.Storage.Table; 
@@ -64,7 +68,8 @@ namespace AzureTableStorage
 }
 ```
 
-- In 'Program.cs' add the following code to import the right namespaces
+- In 'Program.cs' add the following code to import the right namespaces:
+
 ``` csharp
 using System;
 using System.Configuration;
@@ -73,6 +78,7 @@ using Microsoft.WindowsAzure.Storage.Table;
 ```
 
 - Add code that creates a new Session instance:
+
 ``` csharp
 private static Session CreateSession()
 {
@@ -93,7 +99,9 @@ private static Session CreateSession()
 	return session;
 }
 ```
+
 - Add code that creates the Table and calls Insert and Retrieve operations (we'll add those later on):
+
 ``` csharp
 static void Main()
 {
@@ -123,7 +131,9 @@ static void Main()
 	Console.ReadKey(true);
 }
 ```
+
 - Add code that inserts a new Session instance into the Table:
+
 ``` csharp
 private static void InsertSession(CloudTable table)
 {
@@ -134,6 +144,7 @@ private static void InsertSession(CloudTable table)
 ```
 
 - Add code that queries all Session instances from the Table:
+
 ``` csharp
 private static void RetrieveSessions(CloudTable table)
 {
@@ -147,6 +158,7 @@ private static void RetrieveSessions(CloudTable table)
 	}
 }
 ```
+
 ### Step 5 - Try it out ###
 - Run the project
 You should see output similar to this:
@@ -157,7 +169,7 @@ At this point you have created an Azure Storage Account, added a Table Storage T
 ## Finished! ##
 You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
-- 
+- Console output similar to the screenshot.
 
 After validation by the host you can use the TechDays 16 app to unlock the a Mini-Hack specific badge!
 
