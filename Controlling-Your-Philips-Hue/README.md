@@ -106,7 +106,7 @@ Whitelisting and permission to access the bridge
 ## Finished! ##
 You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
-- 
+- Show the orange Philips Hue.
 
 After validation by the host you can use the TechDays 16 app to unlock the a Mini-Hack specific badge!
 
