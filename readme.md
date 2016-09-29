@@ -15,4 +15,9 @@ Download the TechDays app to explore the different mini hacks available.
 <img alt="Google" src="Images/badge-google-x2.png" height=30>
 </a>
 
+# Hosts
 ![Xpirit Hosts](Images/minihacksbanner.png)
+
+# Prizes
+![Prize 1](Images/prize1.png)
+![Prize 1](Images/prize2.png)
