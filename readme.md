@@ -5,6 +5,14 @@ Bring your own laptop and visit the Xpirit mini hack area to do gain hands on ex
 
 Download the TechDays app to explore the different mini hacks available. 
 
-[![Microsoft](Images/badge-windows-x2.png =250x250)](https://www.microsoft.com/store/apps/9NBLGGH4TBWD)
-[![Apple](Images/badge-apple-x2.png =250x)](https://itunes.apple.com/us/app/techdays-16/id1137372151?ls=1&mt=8)
-[![Google](Images/badge-google-x2.png)](https://play.google.com/store/apps/details?id=com.xpirit.techdays)  
+<a href="https://www.microsoft.com/store/apps/9NBLGGH4TBWD">
+<img alt="Microsoft" src="Images/badge-windows-x2.png" height=30>
+</a>
+<a href="https://itunes.apple.com/us/app/techdays-16/id1137372151?ls=1&mt=8">
+<img alt="Apple" src="Images/badge-apple-x2.png" height=30>
+</a>
+<a href="https://play.google.com/store/apps/details?id=com.xpirit.techdays">
+<img alt="Google" src="Images/badge-google-x2.png" height=30>
+</a>
+
+![Xpirit Hosts](Images/minihacksbanner.png)
