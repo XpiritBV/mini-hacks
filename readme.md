@@ -1,6 +1,6 @@
 ![Xpirit TechDays MiniHack Banner](./HackBanner-s.png)
 
-# Win prizes with completing mini hacks
+# Win prizes by completing mini hacks
 Bring your own laptop and visit the Xpirit mini hack area to do gain hands on experience on various topics.
 
 Download the TechDays app to explore the different mini hacks available. 
