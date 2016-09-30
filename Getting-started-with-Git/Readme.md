@@ -32,7 +32,7 @@ We do not always start fresh so we need a way to get stuff from an existing repo
 - Open Visual Studio
 - Open Team Explorer and navigate to the [Connect] page
 - In the [Local Repositories] choose Clone and fill in the Mini-Hacks url `https://github.com/XpiritBV/mini-hacks`
-- 
+
 ### Step 3 - Create a new Git Repo ###
 
 Now we will create a new Git repository. A repository starts locally and keeps all your changes and history. 
@@ -43,6 +43,7 @@ Now we will create a new Git repository. A repository starts locally and keeps a
 - type `git init minihack`
 
 **Visual Studio**
+
 - Open Visual Studio
 - Open Team Explorer and navigate to the [Connect] page
 - In the [Local Repositories] add a new Git Repo
@@ -66,7 +67,7 @@ Your working folder is your complete Git repository. You can add/change/delete f
 - Commit your changes
 
 ### Step 5 - Create a branch and merge changes ###
-In Git a branch is just a pointer to a cmmoit making them really light-weight. You should create lots of them during your daily workflow
+In Git a branch is just a pointer to a commit making them really light-weight. You should create lots of them during your daily workflow
 
 **Command Line**
 
@@ -76,6 +77,7 @@ In Git a branch is just a pointer to a cmmoit making them really light-weight. Y
 - Merge the featureA branch into master by typing `git merge featureA`. What happens under the hood is that only the master pointer will start pointing to the same commit as featureA. No real merge is performed but what we call a fast-forward merge
 
 **Visual Studio**
+
 - In Team Explorer create a branch featureA
 - Make changes and merge them back to the master branch
 
@@ -86,10 +88,12 @@ In order to make your changes avalable to others you can either share your folde
 -Navigate to the Code tab and copy the Clone URL
 
 **Command Line**
+
 - Go to your working folder and type `git remote add origin [cloneurl]`
 - Type `git push origin master` to sync your master branch to the remote repository
-- 
+ 
 **Visual Studio**
+
 - In Team Explorer connect to your Git Repo 
 - Go to Settings | Repository settings
 - Add the remote [cloneurl] and call it `origin`
@@ -97,7 +101,7 @@ In order to make your changes avalable to others you can either share your folde
 
 
 ## Finished! ##
-You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+You have successfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
 - Show us a local repo with some branches
 - Show us the pushed repo on either Github or VSTS
