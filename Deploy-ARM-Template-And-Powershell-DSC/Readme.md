@@ -52,7 +52,8 @@ See that IIS and all other options that are configured in DSC are installed
 ## Finished! ##
 You have successfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
-- 
+- The resourcegroup with the Virtual Machine
+- The Virtual machine with IIS
 
 After validation by the host you can use the TechDays 16 app to unlock the a Mini-Hack specific badge!
 

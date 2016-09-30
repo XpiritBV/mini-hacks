@@ -7,7 +7,7 @@ You can create PaaS or IaaS services in Azure by adding and configure them in th
 In this challenge, you will use Azure and ARM templates to provision PaaS services to Azure. This will involve logging into the Azure Portal, select an ARM template and execute the ARM template from a website. 
 
 ## Prerequisites ##
-To get started with this mini-hack, you need workingAzure subscription.
+To get started with this mini-hack, you need an Azure subscription.
 
 ## The Assignment ##
 Find an ARM template to create a WebApp and a DocumentDB and deploy the template to Azure. The following steps can be taken:
@@ -32,9 +32,9 @@ Navigate in the Azure Portal to the ResourceGroup to see which resources are cre
 
 
 ## Finished! ##
-You have successfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+You have successfully finished this Mini-Hack! Please notify a Mini-Hack host and show the following result:
 
-- 
+- The resourcegroup with the webapp and documentdb resources
 
 After validation by the host you can use the TechDays 16 app to unlock the a Mini-Hack specific badge!
 
