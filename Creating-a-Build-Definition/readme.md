@@ -18,14 +18,14 @@ To get started with this mini-hack, you will need the following
 
 ### Step 1 - Getting the code ###
 First navigate to the Xpirit GitHub (https://github.com/xpiritbv)
-Fork the existing repository under your account.
+Fork the Mini-Hacks repository under your account.
 
 ### Step 2 - Create a build definition ###
 Navigate to your VSTS Account. Create a new build definition, choose to start with an empty template.
 
 Bind the forked GitHub repository to your build definition. 
 
-Make a new 'Connection' that allows you to connect to GitHub from VSTS. Authorize the usage of GitHub. Choose the forked repository. Use the 'Master' branch. Save your build definition, provide a name, and validate if the build is succesfull. If you have a green build you can take the next step.
+Make a new 'Connection' that allows you to connect to GitHub from VSTS. Authorize the usage of GitHub. Choose the forked repository. Use the 'Master' branch. Save your build definition, provide a name, and validate if the build is successfull. If you have a green build you can take the next step.
 
 ### Step 3 - Building the solution ###
 Add the 'Visual Studio Build' task and configure this to build the solution.
@@ -35,11 +35,11 @@ Add the 'Visual Studio Test' step and configure this to run the tests.
 Run the build to verify that the unit test passed.
 
 ## Finished! ##
-You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+You have successfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
-- Succesfull build with unittest result in the summary
+- Successfull build with unittest result in the summary
 
-After validation by the host you can use the TechDays 16 app to unlock the a Mini-Hack specific badge!
+After validation by the host you can use the TechDays 16 app to unlock the Mini-Hack specific badge!
 
 If you do not have the TechDays 16 App yet be sure to download it;
 - iOS <https://xpir.it/td16-ios>
