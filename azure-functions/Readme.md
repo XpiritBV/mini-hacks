@@ -21,7 +21,10 @@ Let's start by creating a new Azure Function. Azure Functions are called "**Func
 - Add the Function to a new Resource Group. This will allow you to easily delete the functions and its resources afterwards.
 - Choose the Classic plan and accept the default suggested plan, location and storage account.
 
-### Step 2 - Implement an Add calculation ###
+### Step 2 - Create the function ###
+Choose for a "Generic Webhook - C#" function
+
+### Step 3 - Implement an Add calculation ###
 Add the following code to add a calculation method to the App
 
 ```CSharp
@@ -45,6 +48,8 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceW
     return req.CreateResponse(HttpStatusCode.OK, $"{x} + {y} = {result}");
 }
 ```
+### Step 4 - Run the calculation ###
+Change the request body to parameters x and y with some numbers and run the function.
 
 ## Finished! ##
 You have successfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
