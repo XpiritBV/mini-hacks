@@ -225,7 +225,7 @@ You should see output similar to this:
 At this point you have created an Azure DocumentDB, added a database and documentcollection, and used that collection to store data about a TechDays session!
 
 ## Finished! ##
-You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+You have successfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
 - Console output similar to the screenshot.
 

@@ -37,7 +37,7 @@ Optionally build the app for UWP
 [Universal Windows Platform](UWP.md)
 
 ## Finished! ##
-You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+You have successfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
 - 
 

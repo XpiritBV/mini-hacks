@@ -45,7 +45,7 @@ Run either the iOS or Android application and add some todo items
 If you head back to the [Azure Portal](https://portal.azure.com), click on your App Service, then select **Easy tables**, followed by **TodoItem**.  Note that you can see the raw data for your todo items in the SQL table.
 
 ## Finished! ##
-You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+You have successfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
 - Show the docker history to validate you have run the correct instances
 

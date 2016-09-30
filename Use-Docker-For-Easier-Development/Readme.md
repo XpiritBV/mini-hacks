@@ -47,7 +47,7 @@ This starts up a Docker container and runs the tool.bat in the container and out
 Change the **tool.bat** file to run version 2.0 of your tool by changing the startup container.
 
 ## Finished! ##
-You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+You have successfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
 - Show the docker history to validate you have run the correct instances
 

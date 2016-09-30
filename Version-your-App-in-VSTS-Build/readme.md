@@ -27,7 +27,7 @@ Detailed guidance can be found here: [https://www.visualstudio.com/en-us/docs/bu
 Navigate to your profiles security settings. Create a Personal Access Token (PAT). This PAT is required to register the agent. 
 After registration you can safely revoke this PAT.
 
-Verify that you have registerd your agent succesfully in VSTS. It should be visible in the selected pool, the indicator should light up green.
+Verify that you have registerd your agent successfully in VSTS. It should be visible in the selected pool, the indicator should light up green.
 
 ### Step 2 - Use Local Agent ###
 
@@ -57,7 +57,7 @@ Specify the following Artifact name: DLL
 Make sure its a Server Drop type.
 
 ## Finished! ##
-You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+You have successfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
 - Show the contents of the server drop build.
 

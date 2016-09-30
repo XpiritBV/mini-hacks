@@ -69,7 +69,7 @@ With the new .NET Core you need to get used to the tooling again. Command line i
 
 
 ## Finished! ##
-You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+You have successfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
 - Show us the running ASP.NET application
 

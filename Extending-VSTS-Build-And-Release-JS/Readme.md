@@ -100,7 +100,7 @@ To see your Task in action you'll need a Build or Release Definition.
 
 
 ## Finished! ##
-You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+You have successfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
 - Show the build log for your build task showing "Techdays Mini-hacks!" in the build log.
 

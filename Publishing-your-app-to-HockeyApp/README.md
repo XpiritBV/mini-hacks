@@ -78,7 +78,7 @@ HockeyApp can fully symbolicate your crash reports. To enable this, you need to 
 With the basic integration above, you can already see unique users, new users, sessions, and crash impacted users. To learn even more about your app's usage, add a few TrackEvent calls to your app and inspect the data in the Events tab on HockeyApp.
 
 ## Finished! ##
-You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+You have successfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
 - 
 

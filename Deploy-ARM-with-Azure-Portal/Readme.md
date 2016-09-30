@@ -32,7 +32,7 @@ Navigate in the Azure Portal to the ResourceGroup to see which resources are cre
 
 
 ## Finished! ##
-You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+You have successfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
 - 
 

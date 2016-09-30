@@ -50,7 +50,7 @@ Connect to the Virtual Machine in Azure
 See that IIS and all other options that are configured in DSC are installed
 
 ## Finished! ##
-You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+You have successfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
 - 
 

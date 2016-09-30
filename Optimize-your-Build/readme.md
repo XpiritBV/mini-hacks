@@ -31,10 +31,10 @@ Build and verify the build uses multiple configurations.
 Since we have multiple configurations, lets make sure we get the output seperatly dropped
 Update the Publish Artifacts step and specify the following Artifact Name: **DLL - $(BuildConfiguration)** 
 
-Run a build and verify in the succesfull build artifacts that you now have multiple outputs.
+Run a build and verify in the successfull build artifacts that you now have multiple outputs.
 
 ## Finished! ##
-You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+You have successfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
 - Show the build artifact explorer contiaining multiple artifact sources
 

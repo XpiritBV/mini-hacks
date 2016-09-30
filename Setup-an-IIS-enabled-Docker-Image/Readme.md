@@ -93,7 +93,7 @@ When the commit completes, run the command follwing command and see that your im
    ```
 
 ## Finished! ##
-You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+You have successfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
 - show us the running iis container 
 

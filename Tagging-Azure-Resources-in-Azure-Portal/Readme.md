@@ -41,7 +41,7 @@ Pin the most important tags to your Dashboard for quick access.
 ![Image of Pin tags to the Startboard](./show-pinned-tag.png)
 
 ## Finished! ##
-You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+You have successfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
 - Show the tags in the portal dashboad
 

@@ -104,7 +104,7 @@ Whitelisting and permission to access the bridge
    ```  
 
 ## Finished! ##
-You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+You have successfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
 - Show the orange Philips Hue.
 

@@ -48,7 +48,7 @@ With current knowledge of ASP.NET Web API development it is very easy to develop
 - Create your own dialog based on the sample in step 3.
 
 ## Finished! ##
-You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+You have successfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
 - Show us the running Bot
 

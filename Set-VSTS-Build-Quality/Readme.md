@@ -61,7 +61,7 @@ You can imagine that you can do more that executing a Powershell script. But in 
 For a detailed explanation of the steps check [http://xpir.it/minihack-buildquality](http://xpir.it/minihack-buildquality "http://xpir.it/minihack-buildquality")
 
 ## Finished! ##
-You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+You have successfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
 - 
 

@@ -57,7 +57,7 @@ Using the ASP.NET backend gives you access to all the power of ASP.NET, OWIN, En
 Use Visual Studio or SQL Server Management Studio for this purpose instead.
 
 ## Finished! ##
-You have succesfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
+You have successfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
 - 
 
