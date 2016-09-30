@@ -20,4 +20,4 @@ Download the TechDays app to explore the different mini hacks available.
 
 # Prizes
 ![Prize 1](Images/prize1.png)
-![Prize 1](Images/prize2.png)
+![Prize 2](Images/prize2.png)
