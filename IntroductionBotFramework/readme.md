@@ -14,7 +14,7 @@ With current knowledge of ASP.NET Web API development it is very easy to develop
 
 ### Step 2 - Modify the default bot response ###
 - Install the bot emulator from [link](https://aka.ms/bf-bc-emulator) for testing your bot
-- Modify the default response witt your own response and test your bot with the emulator
+- Modify the default response with your own response and test your bot with the emulator
 
 ### Step 3 - Create a Bot Dialog ###
 - Add a new folder called `Dialogs`
