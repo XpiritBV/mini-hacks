@@ -27,12 +27,12 @@ Detailed guidance can be found here: [https://www.visualstudio.com/en-us/docs/bu
 Navigate to your profiles security settings. Create a Personal Access Token (PAT). This PAT is required to register the agent. 
 After registration you can safely revoke this PAT.
 
-Verify that you have registerd your agent successfully in VSTS. It should be visible in the selected pool, the indicator should light up green.
+Verify that you have registered your agent successfully in VSTS. It should be visible in the selected pool, the indicator should light up green.
 
 ### Step 2 - Use Local Agent ###
 
 Update the build definition to use your local agent. This is configured on the build definitions General tab.
-Run the build to verfiy the build runs on your local machine. 
+Run the build to verify the build runs on your local machine. 
 
 ### Step 3 - Add PowerShell step ###
 
