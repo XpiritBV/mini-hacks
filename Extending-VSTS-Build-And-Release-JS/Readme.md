@@ -15,7 +15,7 @@ In this step you need to install Node and the TFS Cross platform tools so you ca
 
 - Download and install Node.js https://nodejs.org/en/
 - Open a administrative command line
-- Install tfs-cli using: `npm install -g tfx-cli`
+- Install tfs-cli using: `npm install -g tfx-cli@0.3.28`
 - Test that you can call tfx by running: `tfx --help`
 
 *For a more extensive walkthrough on installing tfx:*
