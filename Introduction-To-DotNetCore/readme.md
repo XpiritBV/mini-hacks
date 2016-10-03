@@ -39,7 +39,7 @@ With the new .NET Core you need to get used to the tooling again. Command line i
    
    ```json
     "dependencies": {
-      "Microsoft.AspNetCore.Server.Kestrel": "-0.0"
+      "Microsoft.AspNetCore.Server.Kestrel": "1.0.0"
     },   
    ```
 
@@ -71,7 +71,7 @@ With the new .NET Core you need to get used to the tooling again. Command line i
 ## Finished! ##
 You have successfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
-- Show us the running ASP.NET application
+- Show us the running web application
 
 After validation by the host you can use the TechDays 16 app to unlock the Mini-Hack specific badge!
 
