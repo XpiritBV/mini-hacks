@@ -27,12 +27,13 @@ application to an ASP.NET application.
 
 - Open your directory in [Visual Studio Code](https://code.visualstudio.com). If you do not have Visual Studio Code
 installed you can install it within a minute.
+- Make sure you have the C# extension installed in Visual Studio Code. Do this by typing `Ctrl+Shift+P` and type install extensions. Type C# in the textbox and install the C# extension.
 - Add two dependencies to the project.json file under the `dependencies` section.
 ```json
 "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0",
 "Microsoft.AspNetCore.Server.Kestrel": "1.0.0"
 ```
-- Restore the dependencies using `Ctrl+Shift+P` and type `dotnet` and pick the Run Build Task.
+- Restore the dependencies using `Ctrl+Shift+P` and type `build`.
 - Change the implementation of the static entrypoint to bootstrap the ASP.NET hosting.
 ```CSharp
 var host = new WebHostBuilder()
