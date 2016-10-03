@@ -220,7 +220,7 @@ private static void RetrieveSessions(DocumentClient client)
 ### Step 5 - Try it out ###
 Run the project
 You should see output similar to this:
-![alt text](out.png "Console output")
+![alt text](https://github.com/XpiritBV/mini-hacks/raw/master/Using-DocumentDB/Out.png "Console output")
 
 At this point you have created an Azure DocumentDB, added a database and documentcollection, and used that collection to store data about a TechDays session!
 
