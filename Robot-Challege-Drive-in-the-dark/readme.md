@@ -1,4 +1,4 @@
-![Xpirit TechDays MiniHack Banner](../HackBanner-s.png)
+﻿![Xpirit TechDays MiniHack Banner](../HackBanner-s.png)
 # Robot Challenge - Drive in the dark #
 
 ## Challenge ##
@@ -18,7 +18,7 @@ To get started with this mini-hack, you will need the following
     - Visual Studio Code <https://code.visualstudio.com/>
 
 **Download project and install project dependencies**
-- Clone repository from github, open a command line or terminal and use the following command: ` git clone https://github.com/xxx` 
+- Clone repository from github, open a command line or terminal and use the following command: ` git clone https://github.com/XpiritBV/mini-hacks/tree/master/Robot-Challege-Drive-in-the-dark/Source` 
 
 - While still in your terminal go into the project folder and install the dependencies: `npm install` 
 
