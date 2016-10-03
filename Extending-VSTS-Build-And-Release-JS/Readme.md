@@ -83,7 +83,7 @@ tl.setResult(tl.TaskResult.Succeeded);
 In order to use the task in your build definition, you'll need to upload it to your account usign the `tfx` utility. You will need a PAT in order to authenticate .
 
 - If you haven't done this already, create a PAT (Personal Access Token) so you can upload your task to your Visual Studio Team Services account. See: https://www.visualstudio.com/en-us/docs/setup-admin/team-services/use-personal-access-tokens-to-authenticate
-- Open a command prompt and enter `tfx login --service-url https://{youraccount}.visualstudio.com` --token {your PAT}`, replace the account and the token with your real values. (if your VSTS accoutn has been around for a while you may need to append `/DefaultCollection` to the service url).
+- Open a command prompt and enter `tfx login --service-url https://{youraccount}.visualstudio.com` --token {your PAT}`, replace the account and the token with your real values. (if your VSTS account has been around for a while you may need to append `/DefaultCollection` to the service url).
 - Go to the directory that contains your task (e.g. `c:\buildtasks\MyFirstJavascriptTask`) and enter: `tfx build tasks upload --task-root .`
 
 Your task has now been uploaded to VSTS. Next time you want to upload your task to the same account, make sure teh task has a higher version number specified in its `task.json`.
