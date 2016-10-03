@@ -162,7 +162,7 @@ private static void RetrieveSessions(CloudTable table)
 ### Step 5 - Try it out ###
 - Run the project
 You should see output similar to this:
-![alt text](out.png "Console output")
+![alt text](https://github.com/XpiritBV/mini-hacks/raw/master/Using-Table-Storage/out.png "Console output")
 
 At this point you have created an Azure Storage Account, added a Table Storage Table, and used that table to store data about a TechDays session!
 
