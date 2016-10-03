@@ -73,7 +73,7 @@ You have successfully finished this Mini-Hack! Please notify a Mini-Hack host sh
 
 - Show us the running ASP.NET application
 
-After validation by the host you can use the TechDays 16 app to unlock the a Mini-Hack specific badge!
+After validation by the host you can use the TechDays 16 app to unlock the Mini-Hack specific badge!
 
 If you do not have the TechDays 16 App yet be sure to download it;
 - iOS <https://xpir.it/td16-ios>
