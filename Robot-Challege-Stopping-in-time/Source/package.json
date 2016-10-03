@@ -1,0 +1,40 @@
+{
+  "name": "testmasterbot",
+  "version": "0.0.1",
+  "description": "Testmasterbot, The most awesome purple bot you ever seen.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "robot-usb-mac": "node src/app.js",
+    "robot-usb-windows": "node src/app.js",
+    "robot-windows": "node src/app.js COMX",
+    "robot-mac": "node src/app.js /dev/tty.Makeblock-ELETSPP"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xebia/TestMasterBot.git"
+  },
+  "keywords": [
+    "Mbot",
+    "TestMaster",
+    "Xebia"
+  ],
+  "author": "Xavier Viuda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xebia/TestMasterBot/issues"
+  },
+  "homepage": "https://github.com/xebia/TestMasterBot#readme",
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "johnny-five": "^0.9.43",
+    "node-constants": "0.0.2",
+    "node-pixel": "^0.6.1",
+    "serialport": "^3.1.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "cucumber": "^0.10.2",
+    "mocha": "^2.4.5"
+  }
+}
