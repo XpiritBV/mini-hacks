@@ -39,7 +39,7 @@ Optionally build the app for UWP
 ## Finished! ##
 You have successfully finished this Mini-Hack! Please notify a Mini-Hack host show them the following result(s);
 
-- 
+- Show the app you've created with the result of the picture you've uploaded
 
 After validation by the host you can use the TechDays 16 app to unlock the Mini-Hack specific badge!
 
