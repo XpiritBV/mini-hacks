@@ -1,8 +1,8 @@
 ![Xpirit TechDays MiniHack Banner](../HackBanner-s.png)
-# Robot Challenge - Follow a straight line #
+# Robot Hack - Follow a straight line #
 
 ## Challenge ##
-In the Robot Challenge min-hacks you will learn to control a robot using JavaScript. The robot has been pre-programmed with features to follow lines, make corners, drive through darkness and stop at the end of a track. By finding - and fixing - bugs in the code you will be able to reach the finish with these robots. A fun way to work with JavaScript, NodeJS and Arduino based robots.
+In this Mini-Hackyou will learn to control a robot using JavaScript. The robot has been pre-programmed with features to follow lines, make corners, drive through darkness and stop at the end of a track. By finding - and fixing - bugs in the code you will be able to reach the finish with these robots. A fun way to work with JavaScript, NodeJS and Arduino based robots.
 
 ## Prerequisites ##
 To get started with this mini-hack, you will need the following 
