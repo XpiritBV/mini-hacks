@@ -1,4 +1,4 @@
-FROM windowsservercore
+FROM microsoft/windowsservercore
 ADD ./tool /tool
 WORKDIR /tool
 CMD tool.bat
