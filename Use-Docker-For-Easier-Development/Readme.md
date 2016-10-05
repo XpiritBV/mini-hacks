@@ -9,7 +9,7 @@ To get started with this mini-hack, you need a Virtual Machine where you can run
 
 - Log in to your Azure Account
 - Click the New Button on the left hand side 
-- Search for **Windows Server 2016 Core with Containers Tech Preview 5** and select the image 
+- Search for **Windows Server 2016 with Containers Tech Preview 5** and select the image 
 - Create the new image by following the steps in the wizard
 - Set up a Remote Desktop connection and login to the Virtual Machine you just created
 
